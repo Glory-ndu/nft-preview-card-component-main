@@ -1,6 +1,6 @@
 # NFT Preview Card Component
 
-This project is a responsive front-end component built using **HTML and CSS**, designed to display an NFT preview card with structured layout and visual hierarchy.
+This project is a responsive front end component built using **HTML and CSS**, designed to display an NFT preview card with structured layout and visual hierarchy.
 
 The project focuses on translating a design specification into clean, functional code.
 
@@ -18,7 +18,7 @@ The project focuses on translating a design specification into clean, functional
 - HTML semantic structure
 - CSS layout and styling
 - Attention to UI details
-- Software development fundamentals through component-based design
+- Software development fundamentals through component based design
 
 ---
 
