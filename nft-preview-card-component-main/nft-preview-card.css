@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(13, 13, 43);
+    font-size: 15px;
+}
+.container{/*first container*/
+    background-color: rgb(2, 12, 24);/*color of  the first form*/
+    display: flex;/*to display flex*/
+    border-radius: 10px;/*makes the edge of the form curved*/
+    width: 330px;
+    height: 580px;
+    padding: 15px;/*to help give the work a border*/
+    justify-content: center;/*make the work centralised*/
+}
+.container1{/*second container*/
+    background-color: rgba(6, 23, 43, 0.89);
+    display: flex;/*to display flex*/
+    border-radius: 10px;/*makes the edge of the form curved*/
+    width: 310px;
+    height: 540px;
+    padding: 20px;/*to help give the work a border*/
+    justify-content: center;/*make the work centralised*/
+}
+.image{/*for editing the first image*/
+    height: 280px;
+    width: 280px;
+    border-radius: 10px;/*makes the edge of the form curved*/
+    justify-content: center;/*make the work centralised*/
+    align-content: center;/*make the work centralised*/
+}
+.equilibrium{/*for the equilibrium text*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*font style of equilibrium*/   
+    color: white;/*color of text*/
+    font-weight: 500px;/*to help adjust the font weight of the text*/
+    justify-content: left;/*to push the text to the left*/
+}
+.text{/*to make the text the required style you want*/
+    color: rgb(192, 198, 206);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.number{/*to make the number the required style you want*/
+    color: rgb(40, 211, 211);/*color of text*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*font style of text*/   
+    font-weight: bolder;/*to help adjust the font weight of the text*/
+    font-size: 19px;/*font size of text*/
+}
+.b1{/*for the "3 days" text*/
+    color: rgb(192, 198, 206);/*color of text*/
+    font-size:15px;/*font size of text*/
+    font-weight: lighter;/*to help adjust the font weight of the text*/
+    text-align: left;/*to push the text to the left*/
+}
+.line{/*for the line*/
+    color: rgb(147, 159, 173);/*to help edit the line made*/
+}
+.image2{/*tp edit the icon image*/
+    width: 40px;
+    height: 40px;
+    border-color: white;/*for the border of the image*/
+    border-width: bolder;/*to highlight the border of the image*/
+}
+.creation{/*for the creation text*/
+    color: rgb(141, 150, 161);/*color of text*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*font style of text*/    
+    font-weight: 50px;/*to help adjust the font weight of the text*/
+    font-style: normal;/*helps adjust the font style of text*/
+    text-align: center;/*to push the text to the center*/
+}
+.b2{/*for the remaining part of the creation text*/
+    color: whitesmoke;/*color of text*/
+    font-size:15px;/*font size of text*/
+    font-weight: lighter;/*to help adjust the font weight of the text*/
+    font-style: normal;/*helps adjust the font style of text*/
+}
+@media screen and (max-width: 480px){/*this is to change the design of the site when kept
+                                           in a different sixe*/
+    body{/*for the body of the site*/
+        padding: 400px;
+    }
+   .container{/*for the main container of the site*/
+    background-color: red;/*background color of the site*/
+   }
+}
